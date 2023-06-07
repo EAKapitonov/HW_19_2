@@ -1,0 +1,73 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Молочная продукция",
+      "translator": "Продукты на основе молока"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Мясная продукция",
+      "translator": "Продуты полученные из мясо"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "Фрукты",
+      "translator": "Категория фрукты"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "category_name": "Овощи",
+      "translator": "Продукты относящиеся к овощам"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Кефир",
+      "translator": "Продукт кисло-молочный и т.д.",
+      "product_image": "",
+      "product_category_name": 1,
+      "purchase_price": 100,
+      "date_of_creation": "2023-06-07",
+      "date_last_change": "2023-06-07"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Йогурт",
+      "translator": "Йогурт - продукт кисломолочный из молока, натуральный и т.д.",
+      "product_image": "",
+      "product_category_name": 1,
+      "purchase_price": 120,
+      "date_of_creation": "2023-06-07",
+      "date_last_change": "2023-06-07"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "Колбаса копченая",
+      "translator": "Мясной продукт из мясо гововядны и т.д.",
+      "product_image": "",
+      "product_category_name": 2,
+      "purchase_price": 230,
+      "date_of_creation": "2023-06-07",
+      "date_last_change": "2023-06-07"
+    }
+  }
+]
